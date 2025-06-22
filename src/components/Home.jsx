@@ -1,9 +1,10 @@
 import { Github, Linkedin, Mail } from "lucide-react";
+import MERNImage from "../assets/MERN.png";
 
 export const Home = () => {
   return (
     <div className="flex flex-col xl:flex-row">
-      <img src="/MERN.png" className="w-lg h-auto object-contain" />
+      <img src={MERNImage} className="w-lg h-auto object-contain" />
       <section className="flex flex-col justify-center items-start mt-2 xl:mt-0 xl:ml-4 h-full">
         <div className="">
           <h1 className="font-bold text-lg xl:text-2xl bg-gradient-to-r from-amber-500 via-pink-500 to-purple-500 bg-clip-text text-transparent">

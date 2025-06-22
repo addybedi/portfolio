@@ -1,13 +1,15 @@
 import Netapp from "../assets/netapp";
 import CapitalMindLogo from "../assets/CapitalMindLogo";
 import KnotchLogo from "../assets/KnotchLogo";
+import VILLogo from "../assets/vil.png";
+import QboLogo from "../assets/Qbo.png";
 
 export const projects = [
   {
     live: "https://unscrambl.com/product/qbo-overview/",
     logo: (
       <img
-        src="src/assets/Qbo.png"
+        src={QboLogo}
         height={24}
         width={24}
         className=" h-auto object-contain"
@@ -158,11 +160,7 @@ export const projects = [
   {
     live: "https://valueinnovationlabs.com/enterprise-hrms.php",
     logo: (
-      <img
-        src="src/assets/vil.png"
-        style={{ height: "36px", width: "36px" }}
-        alt=""
-      />
+      <img src={VILLogo} style={{ height: "36px", width: "36px" }} alt="" />
     ),
     title: "HRMS by Value Innovation Labs",
     description:
