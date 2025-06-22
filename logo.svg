@@ -1,0 +1,7 @@
+<svg width="120" height="120" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="200" height="200" rx="20" fill="#0F172A"/>
+  <text x="50%" y="54%" text-anchor="middle" fill="#38BDF8" font-family="Segoe UI, Roboto, sans-serif"
+        font-size="80" font-weight="600" dominant-baseline="middle" letter-spacing="4">
+    AB
+  </text>
+</svg>
